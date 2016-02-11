@@ -76,7 +76,7 @@
             "metadata": {
                 "provider": "virtualbox",
                 "created_at": "{{timestamp}}",
- 		"version": "0.3"
+ 		"version": "0.4"
             }
         }]
     ]
