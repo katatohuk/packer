@@ -40,7 +40,7 @@
                 "keyboard-configuration/modelcode=SKIP keyboard-configuration/layout=USA keyboard-configuration/variant=USA console-setup/ask_detect=false ",
                 "initrd=/install/initrd.gz -- <enter>"
             ],
-            "headless": true,
+            "headless": false,
             "boot_wait": "10s",
             "disk_size": 20480,
             "guest_os_type": "Ubuntu_64",
@@ -51,7 +51,7 @@
             "ssh_username": "vagrant",
             "ssh_password": "vagrant",
             "ssh_port": 22,
-            "ssh_wait_timeout": "60s",
+            "ssh_wait_timeout": "120s",
             "shutdown_command": "echo '/sbin/halt -h -p' > shutdown.sh; echo 'vagrant'|sudo -S bash 'shutdown.sh'",
             "guest_additions_path": "VBoxGuestAdditions_{{.Version}}.iso",
             "virtualbox_version_file": ".vbox_version",
@@ -76,7 +76,7 @@
             "metadata": {
                 "provider": "virtualbox",
                 "created_at": "{{timestamp}}",
- 		"version": "0.6"
+ 		"version": "0.7"
             }
         }]
     ]
