@@ -45,9 +45,9 @@
             "disk_size": 20480,
             "guest_os_type": "Ubuntu_64",
             "http_directory": "http",
-            "iso_checksum": "a3b345908a826e262f4ea1afeb357fd09ec0558cf34e6c9112cead4bb55ccdfb",
+            "iso_checksum": "29a8b9009509b39d542ecb229787cdf48f05e739a932289de9e9858d7c487c80",
             "iso_checksum_type": "sha256",
-            "iso_url": "http://releases.ubuntu.com/14.04.3/ubuntu-14.04.3-server-amd64.iso",
+            "iso_url": "http://releases.ubuntu.com/16.04.1/ubuntu-16.04.1-server-amd64.iso",
             "ssh_username": "vagrant",
             "ssh_password": "vagrant",
             "ssh_port": 22,
@@ -76,7 +76,7 @@
             "metadata": {
                 "provider": "virtualbox",
                 "created_at": "{{timestamp}}",
- 		"version": "0.4"
+ 		"version": "0.5"
             }
         }]
     ]
