@@ -51,7 +51,7 @@
             "ssh_username": "vagrant",
             "ssh_password": "vagrant",
             "ssh_port": 22,
-            "ssh_wait_timeout": "10000s",
+            "ssh_wait_timeout": "60s",
             "shutdown_command": "echo '/sbin/halt -h -p' > shutdown.sh; echo 'vagrant'|sudo -S bash 'shutdown.sh'",
             "guest_additions_path": "VBoxGuestAdditions_{{.Version}}.iso",
             "virtualbox_version_file": ".vbox_version",
@@ -76,7 +76,7 @@
             "metadata": {
                 "provider": "virtualbox",
                 "created_at": "{{timestamp}}",
- 		"version": "0.5"
+ 		"version": "0.6"
             }
         }]
     ]
